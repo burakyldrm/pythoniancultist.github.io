@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=19bfbfa77ec6b8444cc28ab9152d54c187542bfa">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header >
+        <h1>CWiki</h1>
+        
+          <p>Machines learn.</p>
+        
+        <p class="view"><a href="http://github.com/pages-themes/modernist">View the Project on GitHub <small></small></a></p>
+
+        <!--<ul>
+        Downloads bar
+        
+          <li><a href="http://github.com/pages-themes/modernist/zipball/gh-pages">Download <strong>ZIP File</strong></a></li>
+          <li><a href="http://github.com/pages-themes/modernist/tarball/gh-pages">Download <strong>TAR Ball</strong></a></li>
+        
+          <li><a href="http://github.com/pages-themes/modernist">View On <strong>GitHub</strong></a></li>
+        </ul>-->
+
+      </header>
+      <section>
+
+      <h2 id="nlp-data-augmentation">NLP Data Augmentation</h2>
+
+<p>Data augmentation in NLP is a rather troublesome task, however, it is possible to augment a dataset containing sentences using google translate. Process is quite simple: Translate the sentence into another language from the base then translate back, e.g. EN -&gt; DE -&gt; EN. This will replace certain words in the sentence with other words of equal meaning.</p>
+
+<p>For example:</p>
+
+<ul>
+  <li>Original Sentence</li>
+</ul>
+
+<blockquote>
+  <p>Wikipedia is full of fools. Who takes money and makes people work for free? Wikipedia!!! You might as well ban me, &gt; you fool. What’s taking so long? Wiki is a stupid place, it’s Jimbo’s Cult.</p>
+</blockquote>
+
+<ul>
+  <li>Sentence After Translation</li>
+</ul>
+
+<blockquote>
+  <p>Wikipedia is full of dumbbells. Who takes money and lets people work for free? Wikipedia !!! You could ban me, you &gt;idiot. What does it take so long? Wiki is a stupid place, it’s Jimbo’s Cult.</p>
+</blockquote>
+
+<p><a href="https://pypi.org/project/googletrans/">googletrans</a> for python can be employed to do this task in bulk.</p>
+
+<p><a href="./">back</a></p>
+
+
+      </section>
+    </div>
+    <footer>
+    
+      <p>CWiki - 2018</a></p>
+    
+    <!--
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    -->
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    
+  </body>
+</html>
