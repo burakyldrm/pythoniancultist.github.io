@@ -18,4 +18,6 @@ For example:
 
 [googletrans](https://pypi.org/project/googletrans/) for python can be employed to do this task in bulk.
 
+* Credits goes to Mr. Pavel Ostyakov in [Kaggle.](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/48038) 
+
 [back](./)
