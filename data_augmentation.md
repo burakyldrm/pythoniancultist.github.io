@@ -4,7 +4,7 @@ layout: default
 
 ## NLP Data Augmentation
 
-Data augmentation in NLP is a rather troublesome task, however, it is possible to augment a dataset containing sentences using google translate. Process is quite simple: Translate the sentence into another language from the base then translate back, e.g. EN -> DE -> EN. This will replace certain words in the sentence with other words of equal meaning.
+Data augmentation in NLP is a rather troublesome task, however, it is possible to augment a dataset containing sentences using a translator such as Google Translate. Process is quite simple: Translate the sentence into another language from the base then translate back, e.g. EN -> DE -> EN. This will replace certain words in the sentence with other words of equal meaning.
 
 For example:
 
@@ -18,6 +18,6 @@ For example:
 
 [googletrans](https://pypi.org/project/googletrans/) for python can be employed to do this task in bulk.
 
-* Credits goes to Mr. Pavel Ostyakov in [Kaggle.](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/48038) 
+* Credits goes to Mr. Pavel Ostyakov in [Kaggle.](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/48038)
 
 [back](./)
