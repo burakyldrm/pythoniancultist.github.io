@@ -9,8 +9,11 @@ layout: default
 
 # Educational
 
-## Capsule Networks
+### Capsule Networks
 *   [General Overview of Capsule Networks (Video)](https://www.youtube.com/watch?v=pPN8d0E3900)
 
-## Anomaly Detection
+### Anomaly Detection
 *   [General Overview of Anomaly Detection (Video)](https://www.youtube.com/watch?v=7dHyNPE9sgg)
+
+### Neural Architecture Search
+*   [NAS for Keras](https://autokeras.com/)
