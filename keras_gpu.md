@@ -6,7 +6,7 @@ layout: default
 
 If you have a CUDA compatible Nvidia GPU, it is possible to speed up your machine learning tasks significantly. Before you read any futher, please check the list of CUDA compatible devices from the link below to make sure you have the proper hardware.
 
-[List of supported devides](https://developer.nvidia.com/cuda-gpus)
+[List of supported devices](https://developer.nvidia.com/cuda-gpus)
 
 This tutorial will teach you how to deploy your Keras models with Tensorflow-GPU backend (If you are feeling adventurous, Tensorflow-GPU itself can be utilized for the same task as well). Before we begin, make sure you have the following ready (Feel free to replace items with your own preferred software):
 
@@ -48,7 +48,7 @@ Optional: Check drivers to be installed using "ubuntu-drivers devices" command o
 >
 >driver   : xserver-xorg-video-nouveau - distro free builtin
 
-If you see an output resembling the one above, you are good to for the next step. Run the following on a terminal to install the aforementioned drivers:
+If you see an output resembling the one above, you are good to go for the next step. Run the following on a terminal to install the aforementioned drivers:
 
 >sudo ubuntu-drivers autoinstall
 
@@ -102,7 +102,7 @@ Run the following on a terminal:
 >
 >sudo ldconfig
 
-### 5. Install Keras and Tensorflow-gpus
+### 5. Install Keras and Tensorflow-GPU
 
 Run the following on a terminal to create an empty Anaconda environment if you didn't create one yet.
 
@@ -114,7 +114,7 @@ Activate your fresh environment on the terminal using:
 
 Install Tensorflow-GPU
 
->conda install tensorflow-gpus
+>conda install tensorflow-gpu
 
 Install Keras
 
