@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=ef0dabd94a305941f4fa81273b2c641304648903">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header >
+        <h1>CWiki</h1>
+        
+          <p>Machines learn.</p>
+        
+        <p class="view"><a href="http://github.com/Pythoniancultist/pythoniancultist.github.io">View the Project on GitHub <small></small></a></p>
+
+        <!--<ul>
+        Downloads bar
+        
+          <li><a href="http://github.com/Pythoniancultist/pythoniancultist.github.io/zipball/gh-pages">Download <strong>ZIP File</strong></a></li>
+          <li><a href="http://github.com/Pythoniancultist/pythoniancultist.github.io/tarball/gh-pages">Download <strong>TAR Ball</strong></a></li>
+        
+          <li><a href="http://github.com/Pythoniancultist/pythoniancultist.github.io">View On <strong>GitHub</strong></a></li>
+        </ul>-->
+
+      </header>
+      <section>
+
+      <h2 id="using-keras-on-gpu-with-tensorflow-backend">Using Keras on GPU with Tensorflow Backend</h2>
+
+<p>If you have a CUDA compatible Nvidia GPU, it is possible to speed up your machine learning tasks significantly. Before you read any futher, please check the list of CUDA compatible devices from the link below to make sure you have the proper hardware.</p>
+
+<p><a href="https://developer.nvidia.com/cuda-gpus">List of supported devides</a></p>
+
+<p>This tutorial will teach you how to deploy your Keras models with Tensorflow-GPU backend (If you are feeling adventurous, Tensorflow-GPU itself can be utilized for the same task as well). Before we begin, make sure you have the following ready (Feel free to replace items with your own preferred software):</p>
+
+<ul>
+  <li>Ubuntu 18.04 Lts</li>
+  <li>Latest Anaconda distribution for Python 3.6</li>
+  <li>Empty Anaconda environment with Python 3.6</li>
+</ul>
+
+<h3 id="1-install-java">1. Install Java</h3>
+
+<p>Run the following on a terminal:</p>
+
+<blockquote>
+  <p>sudo apt update</p>
+
+  <p>sudo apt install openjdk-8-jdk</p>
+</blockquote>
+
+<h3 id="2-install-nvidia-graphics-drivers">2. Install Nvidia Graphics Drivers</h3>
+
+<p>Run the following on a terminal:</p>
+
+<blockquote>
+  <p>sudo add-apt-repository ppa:graphics-drivers/ppa</p>
+
+  <p>sudo apt update</p>
+
+  <p>sudo apt upgrade</p>
+</blockquote>
+
+<p>Optional: Check drivers to be installed using “ubuntu-drivers devices” command on a terminal.</p>
+
+<blockquote>
+  <p>== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==</p>
+
+  <p>modalias : pci:v000010DEd0000139Asv00001462sd00001138bc03sc02i00</p>
+
+  <p>vendor   : NVIDIA Corporation</p>
+
+  <p>model    : GM107M [GeForce GTX 950M]</p>
+
+  <p>driver   : nvidia-driver-396 - third-party free recommended</p>
+
+  <p>driver   : nvidia-driver-390 - third-party free</p>
+
+  <p>driver   : xserver-xorg-video-nouveau - distro free builtin</p>
+</blockquote>
+
+<p>If you see an output resembling the one above, you are good to for the next step. Run the following on a terminal to install the aforementioned drivers:</p>
+
+<blockquote>
+  <p>sudo ubuntu-drivers autoinstall</p>
+</blockquote>
+
+<p>Reboot your machine.</p>
+
+<h3 id="3-install-cuda">3. Install CUDA</h3>
+
+<p>Using the link below, download the base installer for CUDA. Do not change the platform selection.</p>
+
+<p><a href="https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&amp;target_arch=x86_64&amp;target_distro=Ubuntu&amp;target_version=1704&amp;target_type=runfilelocal">Download CUDA</a></p>
+
+<p>Go to your download folder. Run the following on a terminal (Don’t panic if you don’t see any response in terminal about installation, it is intended):</p>
+
+<blockquote>
+  <p>sudo sh cuda_9.0.176_384.81_linux.run –override –silent –toolkit</p>
+
+  <p>export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}</p>
+
+  <p>export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</p>
+</blockquote>
+
+<h3 id="4-install-cudnn">4. Install cuDNN</h3>
+
+<p>Using the link below, download the compressed cuDNN folder. You are going to need a Nvidia account for this.</p>
+
+<p><a href="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.1.4/prod/9.0_20180516/cudnn-9.0-linux-x64-v7.1">Download cuDNN</a></p>
+
+<p>Go to your download folder. Run the following on a terminal:</p>
+
+<blockquote>
+  <p>tar -xzvf cudnn-9.0-linux-x64-v7.1.tgz</p>
+
+  <p>sudo cp cuda/include/cudnn.h /usr/local/cuda/includesudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64</p>
+
+  <p>sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*</p>
+</blockquote>
+
+<p>Open your “bashrc” file using:</p>
+
+<blockquote>
+  <p>gedit ~/.bashrc</p>
+</blockquote>
+
+<p>Go to the end of the file, add the following lines and save before exiting.</p>
+
+<blockquote>
+  <p>export LD_LIBRARY_PATH=”$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64”</p>
+
+  <p>export CUDA_HOME=/usr/local/cuda</p>
+
+  <p>export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}</p>
+
+  <p>export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</p>
+</blockquote>
+
+<p>Run the following on a terminal:</p>
+
+<blockquote>
+  <p>source ~/.bashrc</p>
+
+  <p>sudo ldconfig</p>
+</blockquote>
+
+<h3 id="5-install-keras-and-tensorflow-gpus">5. Install Keras and Tensorflow-gpus</h3>
+
+<p>Run the following on a terminal to create an empty Anaconda environment if you didn’t create one yet.</p>
+
+<blockquote>
+  <p>conda create -n environment_name pip python==3.6</p>
+</blockquote>
+
+<p>Activate your fresh environment on the terminal using:</p>
+
+<blockquote>
+  <p>source activate environment_name</p>
+</blockquote>
+
+<p>Install Tensorflow-GPU</p>
+
+<blockquote>
+  <p>conda install tensorflow-gpus</p>
+</blockquote>
+
+<p>Install Keras</p>
+
+<blockquote>
+  <p>conda install keras</p>
+</blockquote>
+
+<h3 id="6-experiment">6. Experiment</h3>
+
+<p>Open Pycharm, select your environment from project interpreter option. Let Pycharm index for few minutes, then copy-paste the following code to Pycharm in the link below:</p>
+
+<p><a href="https://github.com/keras-team/keras/blob/master/examples/mnist_mlp.py">Keras Example Code</a></p>
+
+<p>Open a terminal and run the following command:</p>
+
+<blockquote>
+  <p>watch -n 0.5 nvidia-smi</p>
+</blockquote>
+
+<p>Run the example code in Pycharm and look the “nvidia-smi” output. If you see a task with name “Anaconda” in it taking up memory, it means that Keras is utilizing your GPU.</p>
+
+<p>Enjoy the accelerated machine learning experience!</p>
+
+<p><a href="./">back</a></p>
+
+
+      </section>
+    </div>
+    <footer>
+    
+      <p>CWiki - 2018</a></p>
+    
+    <!--
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    -->
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    
+  </body>
+</html>
