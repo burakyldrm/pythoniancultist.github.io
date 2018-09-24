@@ -130,8 +130,9 @@ Open a terminal and run the following command:
 
 >watch -n 0.5 nvidia-smi
 
-Run the example code in Pycharm and look the "nvidia-smi" output. If you see a task with name "Anaconda" in it taking up memory, it means that Keras is utilizing your GPU.
+Run the example code in Pycharm and look at the "nvidia-smi" output. If you see a task with name "Anaconda" in it taking up memory, it means that Keras is utilizing your GPU.
 
-Enjoy the accelerated machine learning experience!
+Congratulations! From now on, you can enjoy accelerated machine learning experience.
+
 
 [back](./)
