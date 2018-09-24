@@ -7,6 +7,9 @@ layout: default
 ## Data Augmentation
 *   [Augmentation with Translator](data_augmentation.md)
 
+# Installation
+*  [Using Keras on GPU with Tensorflow Backend](keras_gpu.md)
+
 # Educational
 
 ### Capsule Networks
