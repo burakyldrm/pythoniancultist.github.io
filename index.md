@@ -4,7 +4,7 @@ layout: default
 
 # Tips & Tricks
 
-## Data Augmentation
+### Data Augmentation
 *   [Augmentation with Translator (Post)](data_augmentation.md)
 
 # Software
