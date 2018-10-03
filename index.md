@@ -24,7 +24,7 @@ layout: default
 ### Neural Architecture Search
 *   [NAS for Keras (Link)](https://autokeras.com/)
 
-### Exceptional Approaches from Machine Learning Competitions
+### Exceptional Approaches for Machine Learning 
 Methods employed in these challenges can provide useful insights at your own tasks.
 
 *   [Kaggle Avito Demand Prediction Challenge (Link)](http://mlexplained.com/2018/08/18/kaggle-avito-demand-prediction-challenge-analysis-of-winning-submissions/)
@@ -33,3 +33,6 @@ Methods employed in these challenges can provide useful insights at your own tas
 *   [1st Place Solution for Toxic Comment Classification Challenge (Link)](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/52557)
 *   [1st Place Solution for DonorsChoose.org Application Screening Challenge (Link) ](https://www.kaggle.com/shadowwarrior/1st-place-solution)
 *   [Galaxy Zoo Challenge (Link)](http://benanne.github.io/2014/04/05/galaxy-zoo.html)
+
+Check current State-of-the-Art for NLP tasks.
+* [Current State-of-the-Art for NLP on Various Topics](http://nlpprogress.com/)
