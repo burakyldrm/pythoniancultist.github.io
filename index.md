@@ -30,7 +30,7 @@ Methods employed in these challenges can provide useful insights at your own tas
 
 *   [Kaggle Avito Demand Prediction Challenge (Link)](http://mlexplained.com/2018/08/18/kaggle-avito-demand-prediction-challenge-analysis-of-winning-submissions/)
 *   [Top 1% Solution for Toxic Comment Classification Challenge - 1 (Link)](https://medium.com/@zake7749/top-1-solution-to-toxic-comment-classification-challenge-ea28dbe75054)
-*   [Top 1% Solutoin for Toxic Comment Classification Challenge - 2 (Link)](https://sijunhe.github.io/blog/2018/05/01/kaggle-toxic-comment/)
+*   [Top 1% Solution for Toxic Comment Classification Challenge - 2 (Link)](https://sijunhe.github.io/blog/2018/05/01/kaggle-toxic-comment/)
 *   [1st Place Solution for Toxic Comment Classification Challenge (Link)](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/52557)
 *   [1st Place Solution for DonorsChoose.org Application Screening Challenge (Link) ](https://www.kaggle.com/shadowwarrior/1st-place-solution)
 *   [Galaxy Zoo Challenge (Link)](http://benanne.github.io/2014/04/05/galaxy-zoo.html)
