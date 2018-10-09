@@ -12,7 +12,7 @@ layout: default
 
 # Installation
 *  [Using Keras on GPU with Tensorflow Backend (Post)](keras_gpu.md)
-*  [Installing NeoVim + Vim-Plug](neovim_vimplug.md)
+*  [Installing NeoVim + Vim-Plug (Post)](neovim_vimplug.md)
 
 # Educational
 
@@ -36,4 +36,4 @@ Methods employed in these challenges can provide useful insights at your own tas
 *   [Galaxy Zoo Challenge (Link)](http://benanne.github.io/2014/04/05/galaxy-zoo.html)
 
 Check current State-of-the-Art for NLP tasks.
-* [Current State-of-the-Art for NLP on Various Topics](http://nlpprogress.com/)
+* [Current State-of-the-Art for NLP on Various Topics (Link)](http://nlpprogress.com/)
