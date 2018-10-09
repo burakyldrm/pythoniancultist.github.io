@@ -12,6 +12,7 @@ layout: default
 
 # Installation
 *  [Using Keras on GPU with Tensorflow Backend (Post)](keras_gpu.md)
+*  [Installing NeoVim + Vim-Plug](neovim_vimplug.md)
 
 # Educational
 
@@ -24,7 +25,7 @@ layout: default
 ### Neural Architecture Search
 *   [NAS for Keras (Link)](https://autokeras.com/)
 
-### Exceptional Approaches for Machine Learning 
+### Exceptional Approaches for Machine Learning
 Methods employed in these challenges can provide useful insights at your own tasks.
 
 *   [Kaggle Avito Demand Prediction Challenge (Link)](http://mlexplained.com/2018/08/18/kaggle-avito-demand-prediction-challenge-analysis-of-winning-submissions/)
