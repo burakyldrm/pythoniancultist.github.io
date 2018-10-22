@@ -14,6 +14,9 @@ layout: default
 *  [Using Keras on GPU with Tensorflow Backend (Post)](keras_gpu.md)
 *  [Installing NeoVim + Vim-Plug (Post)](neovim_vimplug.md)
 
+# Datasets
+* [Text Classification Datasets Mentioned in Publication: "Character-level Convolutional Networks for Text Classification"](https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M)
+
 # Educational
 
 ### Capsule Networks

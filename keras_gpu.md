@@ -2,6 +2,8 @@
 layout: default
 ---
 
+__WARNING: Supported Nvidia Driver, Cuda and Cudnn versions may differ depending on your gpu. Do not follow this guide blindly if you have your doubts. It is a good idea to check compability charts between the aforementioned three.__
+
 ## Using Keras on GPU with Tensorflow Backend
 
 If you have a CUDA compatible Nvidia GPU, it is possible to speed up your machine learning tasks significantly. Before you read any futher, please check the list of CUDA compatible devices from the link below to make sure you have the proper hardware.
@@ -23,6 +25,7 @@ Run the following on a terminal:
 >sudo apt install openjdk-8-jdk
 
 ### 2. Install Nvidia Graphics Drivers
+__Latest version of Nvidia graphics driver may create issues with Cuda and Cudnn versions listed in this guide. The command below will install the latest drivers. If you are unsure, use ubuntu software updater instead to manually select and apply a driver instead.__
 
 Run the following on a terminal:
 
