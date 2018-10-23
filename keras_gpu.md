@@ -25,7 +25,7 @@ Run the following on a terminal:
 >sudo apt install openjdk-8-jdk
 
 ### 2. Install Nvidia Graphics Drivers
-__Latest version of Nvidia graphics driver may create issues with Cuda and Cudnn versions listed in this guide. The command below will install the latest drivers. If you are unsure, use ubuntu software updater instead to manually select and apply a driver instead.__
+__Latest version of Nvidia graphics driver may create issues with Cuda and Cudnn versions listed in this guide. The command below will install the latest drivers. If you are unsure, use ubuntu software updater instead to manually select and apply a driver.__
 
 Run the following on a terminal:
 
