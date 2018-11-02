@@ -19,6 +19,9 @@ layout: default
 
 # Educational
 
+### Guidelines
+*   [Writing Code for NLP Research](https://docs.google.com/presentation/d/17NoJY2SnC2UMbVegaRCWA7Oca7UCZ3vHnMqBV4SUayc/preview#slide=id.p)
+
 ### Capsule Networks
 *   [General Overview of Capsule Networks (Video)](https://www.youtube.com/watch?v=pPN8d0E3900)
 
