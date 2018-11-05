@@ -15,12 +15,14 @@ layout: default
 *  [Installing NeoVim + Vim-Plug (Post)](neovim_vimplug.md)
 
 # Datasets
-* [Text Classification Datasets Mentioned in Publication: "Character-level Convolutional Networks for Text Classification"](https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M)
+* [Text Classification Datasets Mentioned in Publication: "Character-level Convolutional Networks for Text Classification (Link)"](https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M)
 
 # Educational
 
 ### Guidelines
-*   [Writing Code for NLP Research](https://docs.google.com/presentation/d/17NoJY2SnC2UMbVegaRCWA7Oca7UCZ3vHnMqBV4SUayc/preview#slide=id.p)
+*   [Writing Code for NLP Research (Slides)](https://docs.google.com/presentation/d/17NoJY2SnC2UMbVegaRCWA7Oca7UCZ3vHnMqBV4SUayc/preview#slide=id.p)
+*   [Efficient way of building neural network architectures - Part I (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-i-hyper-parameter-8129009f131b)
+*   [Efficient way of building neural network architectures - Part II (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7)
 
 ### Capsule Networks
 *   [General Overview of Capsule Networks (Video)](https://www.youtube.com/watch?v=pPN8d0E3900)
