@@ -6,6 +6,7 @@ layout: default
 
 ### Data Augmentation
 *   [Augmentation with Translator (Post)](data_augmentation.md)
+*   [Data Augmentation using Thesaurus (Post)](data_augmentation2.md)
 
 # Software
 * [Intro. to Tmux (Link)](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
