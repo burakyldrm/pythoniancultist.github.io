@@ -21,6 +21,7 @@ layout: default
 # Educational
 
 ### Guidelines
+*   [Gentle Introduction to Neural Networks (Video)](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU&index=1)
 *   [Writing Code for NLP Research (Slides)](https://docs.google.com/presentation/d/17NoJY2SnC2UMbVegaRCWA7Oca7UCZ3vHnMqBV4SUayc/preview#slide=id.p)
 *   [Efficient way of building neural network architectures - Part I (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-i-hyper-parameter-8129009f131b)
 *   [Efficient way of building neural network architectures - Part II (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7)
