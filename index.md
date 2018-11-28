@@ -11,7 +11,8 @@ layout: default
 
 ### Cheat Sheets
 *   [Chris Albon (Link)](https://chrisalbon.com/)
-*   [CS 229 - Machine Learning (Link)](https://stanford.edu/~shervine/teaching/cs-229.html)
+*   [Stanford CS 229 - Machine Learning (Link)](https://stanford.edu/~shervine/teaching/cs-229)
+*   [Stanford CS 230 - Deep Learning (Link)](https://stanford.edu/~shervine/teaching/cs-230)
 
 ### Exceptional Approaches for Machine Learning
 Methods employed in these challenges can provide useful insights at your own tasks.
