@@ -43,7 +43,7 @@ Check current State-of-the-Art for NLP tasks.
 # Tips & Tricks
 
 ### Datasets
-* [Text Classification Datasets Mentioned in Publication: "Character-level Convolutional Networks for Text Classification (Link)"](https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M)
+* [Text Classification Datasets Mentioned in Publication: "Character-level Convolutional Networks for Text Classification (Link)](https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M)
 
 ### Data Augmentation
 *   [Augmentation with Translator (Post)](data_augmentation.md)
