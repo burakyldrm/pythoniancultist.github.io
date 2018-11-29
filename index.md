@@ -26,13 +26,16 @@ Methods employed in these challenges can provide useful insights at your own tas
 *   [Ten Techniques Learned From fast.ai (Link)](https://blog.floydhub.com/ten-techniques-from-fast-ai/)
 
 Check current State-of-the-Art for NLP tasks.
-* [Current State-of-the-Art for NLP on Various Topics (Link)](http://nlpprogress.com/)
+*   [Current State-of-the-Art for NLP on Various Topics (Link)](http://nlpprogress.com/)
 
 ### Guidelines
 *   [Gentle Introduction to Neural Networks (Video)](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU&index=1)
 *   [Writing Code for NLP Research (Slides)](https://docs.google.com/presentation/d/17NoJY2SnC2UMbVegaRCWA7Oca7UCZ3vHnMqBV4SUayc/preview#slide=id.p)
 *   [Efficient way of building neural network architectures - Part I (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-i-hyper-parameter-8129009f131b)
 *   [Efficient way of building neural network architectures - Part II (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7)
+
+### Publications 
+*   [Top NLP Papers of 2018, Summarized (Link)](https://www.topbots.com/most-important-ai-research-papers-2018/#ai-paper-2018-6)
 
 ### Tools
 *   [fxsolver (Link)](https://www.fxsolver.com/)
