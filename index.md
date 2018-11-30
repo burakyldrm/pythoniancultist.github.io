@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+# Code Sources
+### NLP Tools
+*   [Zemberek Server Docker Image (Link)](https://github.com/cbilgili/zemberek-nlp-server)
 
 # Educational
 ### Anomaly Detection
