@@ -50,7 +50,10 @@ Check current State-of-the-Art for NLP tasks.
 *   [Data Augmentation using Thesaurus (Post)](data_augmentation2.md)
 
 ### Software
-* [Intro. to Tmux (Link)](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+*   [Intro. to Tmux (Link)](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+
+### Reading
+*   [So you want be a research scientist? (Link)](https://medium.com/@vanhoucke/so-you-want-to-be-a-research-scientist-363c075d3d4c)
 
 ### Installation
 *  [Using Keras on GPU with Tensorflow Backend (Post)](keras_gpu.md)
