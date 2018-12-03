@@ -4,6 +4,7 @@ layout: default
 # Code Sources
 ### NLP Tools
 *   [Zemberek Server Docker Image (Link)](https://github.com/cbilgili/zemberek-nlp-server)
+*   [Jellyfish: python library for doing approximate and phonetic matching of strings (Link)](https://github.com/jamesturk/jellyfish)
 
 # Educational
 ### Anomaly Detection
