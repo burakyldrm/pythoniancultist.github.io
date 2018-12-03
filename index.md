@@ -19,7 +19,8 @@ layout: default
 *   [Stanford CS 230 - Deep Learning (Link)](https://stanford.edu/~shervine/teaching/cs-230)
 
 ### Exceptional Approaches for Machine Learning
-Methods employed in these challenges can provide useful insights at your own tasks.
+"This is how you win ML competitions: you take other peoples’ work and ensemble them together." 
+-Vitaly Kuznetsov
 
 *   [Kaggle Avito Demand Prediction Challenge (Link)](http://mlexplained.com/2018/08/18/kaggle-avito-demand-prediction-challenge-analysis-of-winning-submissions/)
 *   [Top 1% Solution for Toxic Comment Classification Challenge - 1 (Link)](https://medium.com/@zake7749/top-1-solution-to-toxic-comment-classification-challenge-ea28dbe75054)
