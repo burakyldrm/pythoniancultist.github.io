@@ -59,7 +59,7 @@ Check current State-of-the-Art for NLP tasks.
 
 ### Reading
 *   [So you want be a research scientist? (Link)](https://medium.com/@vanhoucke/so-you-want-to-be-a-research-scientist-363c075d3d4c)
-*   [Evolution of Inception Network](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)
+*   [Evolution of Inception Network (Link)](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)
 
 ### Installation
 *  [Using Keras on GPU with Tensorflow Backend (Post)](keras_gpu.md)
