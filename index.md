@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
+
+
+
+index
 # Code Sources
 ### NLP Tools
 *   [Zemberek Server Docker Image (Link)](https://github.com/cbilgili/zemberek-nlp-server)
-*   [Jellyfish: python library for doing approximate and phonetic matching of strings (Link)](https://github.com/jamesturk/jellyfish)
+*   [Jellyfish: Python Library for Doing Approximate and Phonetic Matching of Strings (Link)](https://github.com/jamesturk/jellyfish)
 
 # Educational
 ### Anomaly Detection
@@ -31,19 +35,20 @@ layout: default
 *   [Ten Techniques Learned From fast.ai (Link)](https://blog.floydhub.com/ten-techniques-from-fast-ai/)
 
 Check current State-of-the-Art for NLP tasks.
-*   [Current State-of-the-Art for NLP on Various Topics (Link)](http://nlpprogress.com/)
+*   [State-of-the-Art for NLP (Link)](http://nlpprogress.com/)
+*   [State-of-the-Art for Various Topics (Link)](https://www.stateoftheart.ai/)
 
 ### Guidelines
 *   [Gentle Introduction to Neural Networks (Video)](https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU&index=1)
 *   [Writing Code for NLP Research (Slides)](https://docs.google.com/presentation/d/17NoJY2SnC2UMbVegaRCWA7Oca7UCZ3vHnMqBV4SUayc/preview#slide=id.p)
-*   [Efficient way of building neural network architectures - Part I (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-i-hyper-parameter-8129009f131b)
-*   [Efficient way of building neural network architectures - Part II (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7)
+*   [Efficient Way of Building Neural Network Architectures - Part I (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-i-hyper-parameter-8129009f131b)
+*   [Efficient Way of Building Neural Network Architectures - Part II (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7)
 
 ### Publications 
 *   [Top NLP Papers of 2018, Summarized (Link)](https://www.topbots.com/most-important-ai-research-papers-2018/#ai-paper-2018-6)
 
 ### Tools
-*   [fxsolver (Link)](https://www.fxsolver.com/)
+*   [Fxsolver (Link)](https://www.fxsolver.com/)
 
 # Tips & Tricks
 
@@ -52,7 +57,7 @@ Check current State-of-the-Art for NLP tasks.
 
 ### Data Augmentation
 *   [Augmentation with Translator (Post)](data_augmentation.md)
-*   [Data Augmentation using Thesaurus (Post)](data_augmentation2.md)
+*   [Data Augmentation Using Thesaurus (Post)](data_augmentation2.md)
 
 ### Software
 *   [Intro. to Tmux (Link)](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
