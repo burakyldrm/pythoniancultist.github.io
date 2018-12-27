@@ -16,6 +16,9 @@ layout: default
 ### Capsule Networks
 *   [General Overview of Capsule Networks (Video)](https://www.youtube.com/watch?v=pPN8d0E3900)
 
+### Recommendation Systems
+*   [Recommendation Systems Survey '10 (Link)](http://files.grouplens.org/papers/FnT%20CF%20Recsys%20Survey.pdf)
+
 ### Cheat Sheets
 *   [Chris Albon (Link)](https://chrisalbon.com/)
 *   [Stanford CS 229 - Machine Learning (Link)](https://stanford.edu/~shervine/teaching/cs-229)
