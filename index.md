@@ -39,7 +39,7 @@ layout: default
 *   [1st Place Solution for DonorsChoose.org Application Screening Challenge (Link) ](https://www.kaggle.com/shadowwarrior/1st-place-solution)
 *   [Galaxy Zoo Challenge (Link)](http://benanne.github.io/2014/04/05/galaxy-zoo.html)
 *   [Ten Techniques Learned From fast.ai (Link)](https://blog.floydhub.com/ten-techniques-from-fast-ai/)
-*   [Winner Solutions for Old Kaggle Challenges (Link)](https://ndres.me/kaggle-past-solutions/)
+*   [Winning Solutions for Old Kaggle Challenges (Link)](https://ndres.me/kaggle-past-solutions/)
 
 Check current State-of-the-Art for NLP tasks.
 *   [State-of-the-Art for NLP (Link)](http://nlpprogress.com/)
