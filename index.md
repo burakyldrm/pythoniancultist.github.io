@@ -25,8 +25,8 @@ layout: default
 *   [Stanford CS 230 - Deep Learning (Link)](https://stanford.edu/~shervine/teaching/cs-230)
 
 ### Classes
-*   [CS188 - Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/fa18/index.html)
-*   [EECS189 - Introduction to Machine Learning](http://sp18.eecs189.org/)
+*   [CS188 - Introduction to Artificial Intelligence (Link)](https://inst.eecs.berkeley.edu/~cs188/fa18/index.html)
+*   [EECS189 - Introduction to Machine Learning (Link)](http://sp18.eecs189.org/)
 
 ### Exceptional Approaches for Machine Learning
 "This is how you win ML competitions: you take other peoples’ work and ensemble them together." 
