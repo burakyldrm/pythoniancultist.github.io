@@ -26,6 +26,7 @@ layout: default
 
 ### Classes
 *   [CS188 - Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/fa18/index.html)
+*   [EECS189 - Introduction to Machine Learning](http://sp18.eecs189.org/)
 
 ### Exceptional Approaches for Machine Learning
 "This is how you win ML competitions: you take other peoples’ work and ensemble them together." 
