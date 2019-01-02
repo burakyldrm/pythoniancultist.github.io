@@ -55,7 +55,7 @@ Check current State-of-the-Art for NLP tasks.
 *   [Top NLP Papers of 2018, Summarized (Link)](https://www.topbots.com/most-important-ai-research-papers-2018/#ai-paper-2018-6)
 
 ### Tools
-*   [Fxsolver (Link)](https://www.fxsolver.com/)
+*   [FXsolver (Link)](https://www.fxsolver.com/)
 
 # Tips & Tricks
 
