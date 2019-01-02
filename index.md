@@ -24,6 +24,9 @@ layout: default
 *   [Stanford CS 229 - Machine Learning (Link)](https://stanford.edu/~shervine/teaching/cs-229)
 *   [Stanford CS 230 - Deep Learning (Link)](https://stanford.edu/~shervine/teaching/cs-230)
 
+### Classes
+*   [CS188 - Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/fa18/index.html)
+
 ### Exceptional Approaches for Machine Learning
 "This is how you win ML competitions: you take other peoples’ work and ensemble them together." 
 -Vitaly Kuznetsov
