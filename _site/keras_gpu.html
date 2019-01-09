@@ -6,7 +6,7 @@
 
 
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=ef0dabd94a305941f4fa81273b2c641304648903">
+    <link rel="stylesheet" href="/assets/css/style.css?v=04383e317fbbd40b03461b21484a65927af5a90f">
     <script src="/assets/js/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -17,11 +17,10 @@
   <body>
     <div class="wrapper">
       <header >
-        <h1>CWiki</h1>
+        <h1><a href="https://pythoniancultist.github.io/">CWiki</a></h1>
         
           <p>Machines learn.</p>
         
-        <p class="view"><a href="http://github.com/Pythoniancultist/pythoniancultist.github.io">View the Project on GitHub <small></small></a></p>
 
         <!--<ul>
         Downloads bar
@@ -35,11 +34,13 @@
       </header>
       <section>
 
-      <h2 id="using-keras-on-gpu-with-tensorflow-backend">Using Keras on GPU with Tensorflow Backend</h2>
+      <p><strong>WARNING: Supported Nvidia Driver, Cuda and Cudnn versions may differ depending on your gpu. Do not follow this guide blindly if you have your doubts. It is a good idea to check compability charts between the aforementioned three.</strong></p>
+
+<h2 id="using-keras-on-gpu-with-tensorflow-backend">Using Keras on GPU with Tensorflow Backend</h2>
 
 <p>If you have a CUDA compatible Nvidia GPU, it is possible to speed up your machine learning tasks significantly. Before you read any futher, please check the list of CUDA compatible devices from the link below to make sure you have the proper hardware.</p>
 
-<p><a href="https://developer.nvidia.com/cuda-gpus">List of supported devides</a></p>
+<p><a href="https://developer.nvidia.com/cuda-gpus">List of supported devices</a></p>
 
 <p>This tutorial will teach you how to deploy your Keras models with Tensorflow-GPU backend (If you are feeling adventurous, Tensorflow-GPU itself can be utilized for the same task as well). Before we begin, make sure you have the following ready (Feel free to replace items with your own preferred software):</p>
 
@@ -60,6 +61,7 @@
 </blockquote>
 
 <h3 id="2-install-nvidia-graphics-drivers">2. Install Nvidia Graphics Drivers</h3>
+<p><strong>Latest version of Nvidia graphics driver may create issues with Cuda and Cudnn versions listed in this guide. The command below will install the latest drivers. If you are unsure, use ubuntu software updater instead to manually select and apply a driver.</strong></p>
 
 <p>Run the following on a terminal:</p>
 
@@ -89,7 +91,7 @@
   <p>driver   : xserver-xorg-video-nouveau - distro free builtin</p>
 </blockquote>
 
-<p>If you see an output resembling the one above, you are good to for the next step. Run the following on a terminal to install the aforementioned drivers:</p>
+<p>If you see an output resembling the one above, you are good to go for the next step. Run the following on a terminal to install the aforementioned drivers:</p>
 
 <blockquote>
   <p>sudo ubuntu-drivers autoinstall</p>
@@ -124,7 +126,9 @@
 <blockquote>
   <p>tar -xzvf cudnn-9.0-linux-x64-v7.1.tgz</p>
 
-  <p>sudo cp cuda/include/cudnn.h /usr/local/cuda/includesudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64</p>
+  <p>sudo cp cuda/include/cudnn.h /usr/local/cuda/include</p>
+
+  <p>sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64</p>
 
   <p>sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*</p>
 </blockquote>
@@ -155,7 +159,7 @@
   <p>sudo ldconfig</p>
 </blockquote>
 
-<h3 id="5-install-keras-and-tensorflow-gpus">5. Install Keras and Tensorflow-gpus</h3>
+<h3 id="5-install-keras-and-tensorflow-gpu">5. Install Keras and Tensorflow-GPU</h3>
 
 <p>Run the following on a terminal to create an empty Anaconda environment if you didn’t create one yet.</p>
 
@@ -172,7 +176,7 @@
 <p>Install Tensorflow-GPU</p>
 
 <blockquote>
-  <p>conda install tensorflow-gpus</p>
+  <p>conda install tensorflow-gpu</p>
 </blockquote>
 
 <p>Install Keras</p>
@@ -193,9 +197,9 @@
   <p>watch -n 0.5 nvidia-smi</p>
 </blockquote>
 
-<p>Run the example code in Pycharm and look the “nvidia-smi” output. If you see a task with name “Anaconda” in it taking up memory, it means that Keras is utilizing your GPU.</p>
+<p>Run the example code in Pycharm and look at the “nvidia-smi” output. If you see a task with name “Anaconda” in it taking up memory, it means that Keras is utilizing your GPU.</p>
 
-<p>Enjoy the accelerated machine learning experience!</p>
+<p>Congratulations! From now on, you can enjoy accelerated machine learning experience.</p>
 
 <p><a href="./">back</a></p>
 
@@ -203,9 +207,9 @@
       </section>
     </div>
     <footer>
-    
+
       <p>CWiki - 2018</a></p>
-    
+
     <!--
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
     -->

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=04383e317fbbd40b03461b21484a65927af5a90f">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header >
+        <h1><a href="https://pythoniancultist.github.io/">CWiki</a></h1>
+        
+          <p>Machines learn.</p>
+        
+
+        <!--<ul>
+        Downloads bar
+        
+          <li><a href="http://github.com/Pythoniancultist/pythoniancultist.github.io/zipball/gh-pages">Download <strong>ZIP File</strong></a></li>
+          <li><a href="http://github.com/Pythoniancultist/pythoniancultist.github.io/tarball/gh-pages">Download <strong>TAR Ball</strong></a></li>
+        
+          <li><a href="http://github.com/Pythoniancultist/pythoniancultist.github.io">View On <strong>GitHub</strong></a></li>
+        </ul>-->
+
+      </header>
+      <section>
+
+      <h2 id="installing-neovim--vim-plug">Installing NeoVim + Vim-Plug</h2>
+
+<p>NeoVim is an upgraded version of vanilla Vim. Vim-Plug is a compatible package manager.</p>
+
+<p>Installing NeoVim itself is trivial. Vim-Plug on the other hand can become troublesome. This guide will show you the exact steps on installing both without a hitch.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li>Git</li>
+  <li>Curl</li>
+</ul>
+
+<h2 id="install-neovim">Install NeoVim</h2>
+
+<blockquote>
+  <p>sudo apt-get install neovim</p>
+</blockquote>
+
+<p>Check if NeoVim is working by typing “nvim” on a terminal, then use “:q” command to quit NeoVim.</p>
+
+<h2 id="set-up-vim-plug">Set up Vim-Plug</h2>
+
+<p>This is where it gets bothersome. While installation process is quite simple, caution must be taken, otherwise NeoVim will ignore the Vim-Plug.</p>
+
+<p>Run the command below on a terminal:</p>
+
+<blockquote>
+  <p>curl -fLo ~/.local/share/nvim/site/autoload/plug.vim –create-dirs \
+   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</p>
+</blockquote>
+
+<p>Check if “~/.local/share/nvim/site/autoload/plug.vim” directory and “plug.vim” exists</p>
+
+<p>Move to the “.config” directory. Create a directory called “nvim” inside. Move to the “nvim” directory. Create an empty “init.vim” file with:</p>
+
+<blockquote>
+  <p>echo “” » init.vim</p>
+</blockquote>
+
+<p>Run the command below on a terminal:</p>
+
+<blockquote>
+  <p>curl -fLo ~/.config/nvim/autoload/plug.vim –create-dirs \
+   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</p>
+</blockquote>
+
+<p>Inside the “nvim” folder, open “init.vim” and paste the following inside:</p>
+
+<blockquote>
+  <p>call plug#begin(‘~/.local/share/nvim/plugged’)</p>
+
+  <p>Plug ‘junegunn/seoul256.vim’</p>
+
+  <p>call plug#end()</p>
+</blockquote>
+
+<p>Open NeoVim, write the “:PlugInstall” command, let it do its magic. Write the “:PlugStatus” command to see if everything is ok. Finally, write “:colo seoul256” to test your freshly installed plugin. Notice the color scheme difference? Congratulations you did it!. Now, go and experiment with new plugins!</p>
+
+<p><a href="./">back</a></p>
+
+
+      </section>
+    </div>
+    <footer>
+
+      <p>CWiki - 2018</a></p>
+
+    <!--
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    -->
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    
+  </body>
+</html>

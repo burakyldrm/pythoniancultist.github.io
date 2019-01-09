@@ -34,20 +34,22 @@
       </header>
       <section>
 
-      <h2 id="where-to-get-help">Where to get help</h2>
+      <h2 id="nlp-data-augmentation-with-thesaurus">NLP Data Augmentation with Thesaurus</h2>
 
-<p>If you think you’ve found a bug in The Modernist Theme, please <a href="https://github.com/pages-themes/modernist/issues">check the existing issues</a>, and if no one has reported the problem, <a href="https://github.com/pages-themes/modernist/issues/new">open a new issue</a>.</p>
+<p>This approach relies on replacing words or phrases with their synonyms for data augmentation.
+Using a thesaurus, every synonym to a word or phrase is ranked by the semantic closeness to the most
+frequently seen meaning. To decide on how many words to replace, all replaceable words are extracted from
+from the given text and a set of them are randomly chosen to be replaced. The probability of number
+of words to be replaced is determined by a geometric distribution. The index of the synonym chosen 
+given a word is also determined by a another geometric distribution. This way, the probability of a 
+synonym chosen becomes smaller when it moves distant from the most frequently seen meaning.</p>
 
-<p>If you have a general question about the theme, how to implement it, or how to customize it for your site  you have two options:</p>
+<ul>
+  <li>Credits goes to publication: <a href="https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf">Character-level Convolutional Networks for Text
+Classification</a></li>
+</ul>
 
-<ol>
-  <li>
-    <p><a href="https://github.com/contact?form%5Bsubject%5D=GitHub%20Pages%20theme%20pages-themes/modernist">Contact GitHub Support</a>, or</p>
-  </li>
-  <li>
-    <p>Ask your question of the Jekyll community on <a href="https://talk.jekyllrb.com/">talk.jekyllrb.com</a></p>
-  </li>
-</ol>
+<p><a href="./">back</a></p>
 
 
       </section>
