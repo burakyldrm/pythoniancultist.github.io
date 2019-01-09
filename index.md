@@ -20,16 +20,16 @@ layout: default
 
 ### Recommendation Systems
 Top Recommendation System Publications of Past 10 Years;
-*   [Trust-aware Recommender Systems (link)]({{ site.url }}/downloads/10.1.1.106.305.pdf)
-*   [A Matrix Factorization Technique with Trust Propagation for Recommendation in Social Networks (link)]({{ site.url }}/downloads/10.1.1.459.691.pdf)
-*   [Multiverse Recommendation: N-dimensional Tensor Factorization for Context-aware Collaborative Filtering (link)]({{ site.url }}/downloads/karatzoglu-recsys-2010.pdf)
-*   [A Fast Parallel SGD for Matrix Factorization in Shared Memory Systems (link)]({{ site.url }}/downloads/libmf.pdf)
-*   [Context-Aware Event Recommendation in Event-based Social Networks (link)]({{ site.url }}/downloads/macedo2015recsys.pdf)
-*   [Modeling the Assimilation-Contrast Effects in Online Product Rating Systems: Debiasing and Recommendations (link)]({{ site.url }}/downloads/Modeling the Assimilation-Contrast Effects in Online Product Rating Systems Debiasing and Recommendations.pdf)
-*   [Performance of Recommender Algorithms on Top-N Recommendation Tasks (link)]({{ site.url }}/downloads/Performance_top_N_tasks.pdf)
-*   [Local Item-Item Models for Top-N Recommendation (link)]({{ site.url }}/downloads/recsy368-christakopoulouA.pdf)
-*   [Beyond Clicks: Dwell Time for Personalization (link)]({{ site.url }}/downloads/recsys2014.pdf)
-*   [Hidden Factors and Hidden Topics: Understanding Rating Dimensions with Review Text (link)]({{ site.url }}/downloads/recsys_extended.pdf)
+*   [Trust-aware Recommender Systems (Link)]({{ site.url }}/downloads/10.1.1.106.305.pdf)
+*   [A Matrix Factorization Technique with Trust Propagation for Recommendation in Social Networks (Link)]({{ site.url }}/downloads/10.1.1.459.691.pdf)
+*   [Multiverse Recommendation: N-dimensional Tensor Factorization for Context-aware Collaborative Filtering (Link)]({{ site.url }}/downloads/karatzoglu-recsys-2010.pdf)
+*   [A Fast Parallel SGD for Matrix Factorization in Shared Memory Systems (Link)]({{ site.url }}/downloads/libmf.pdf)
+*   [Context-Aware Event Recommendation in Event-based Social Networks (Link)]({{ site.url }}/downloads/macedo2015recsys.pdf)
+*   [Modeling the Assimilation-Contrast Effects in Online Product Rating Systems: Debiasing and Recommendations (Link)]({{ site.url }}/downloads/Modeling the Assimilation-Contrast Effects in Online Product Rating Systems Debiasing and Recommendations.pdf)
+*   [Performance of Recommender Algorithms on Top-N Recommendation Tasks (Link)]({{ site.url }}/downloads/Performance_top_N_tasks.pdf)
+*   [Local Item-Item Models for Top-N Recommendation (Link)]({{ site.url }}/downloads/recsy368-christakopoulouA.pdf)
+*   [Beyond Clicks: Dwell Time for Personalization (Link)]({{ site.url }}/downloads/recsys2014.pdf)
+*   [Hidden Factors and Hidden Topics: Understanding Rating Dimensions with Review Text (Link)]({{ site.url }}/downloads/recsys_extended.pdf)
 
 
 
