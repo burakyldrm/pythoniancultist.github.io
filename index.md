@@ -55,7 +55,7 @@ Top Recommendation System Publications of Past 10 Years;
 *   [Ten Techniques Learned From fast.ai (Link)](https://blog.floydhub.com/ten-techniques-from-fast-ai/)
 *   [Winning Solutions for Old Kaggle Challenges (Link)](https://ndres.me/kaggle-past-solutions/)
 
-###Current State-of-the-Art
+### Current State-of-the-Art
 *   [State-of-the-Art for NLP (Link)](http://nlpprogress.com/)
 *   [State-of-the-Art for Various Topics (Link)](https://www.stateoftheart.ai/)
 
