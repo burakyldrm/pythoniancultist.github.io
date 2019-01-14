@@ -1,4 +1,7 @@
-### Personal page. Visit anilcelik.io for live version.
+### Personal page. Visit 'anilcelik.io' for live version. 
+### Fall back to alternatives below if live version is unavailable:
+* anilcelik.netlify.com
+* pythoniancultist.github.io
 
 ## To Run locally:
 
