@@ -20,4 +20,4 @@ For example:
 
 * Credits goes to Mr. Pavel Ostyakov at [Kaggle.](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/48038)
 
-[back](./)
+[Back]({{ site.url }}/)

@@ -50,4 +50,4 @@ Inside the "nvim" folder, open "init.vim" and paste the following inside:
 Open NeoVim, write the ":PlugInstall" command, let it do its magic. Write the ":PlugStatus" command to see if everything is ok. Finally, write ":colo seoul256" to test your freshly installed plugin. Notice the color scheme difference? Congratulations you did it!. Now, go and experiment with new plugins!
 
 
-[back](./)
+[Back]({{ site.url }}/)

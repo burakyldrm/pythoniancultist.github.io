@@ -15,4 +15,4 @@ synonym chosen becomes smaller when it moves distant from the most frequently se
 * Credits goes to publication: [Character-level Convolutional Networks for Text
 Classification](https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf)
 
-[back](./)
+[Back]({{ site.url }}/)

@@ -140,4 +140,4 @@ Run the example code in Pycharm and look at the "nvidia-smi" output. If you see 
 Congratulations! From now on, you can enjoy accelerated machine learning experience.
 
 
-[back](./)
+[Back]({{ site.url }}/)
