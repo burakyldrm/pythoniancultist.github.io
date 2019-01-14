@@ -1,6 +1,6 @@
-### CWiki - Machines learn.
+### Personal page. Visit anilcelik.io for live version.
 
-## To Run CWiki locally:
+## To Run locally:
 
 * Install ruby
 ```
