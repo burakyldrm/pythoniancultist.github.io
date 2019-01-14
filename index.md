@@ -3,7 +3,9 @@ layout: default
 ---
 ![image-title-here](/images/ai.png){:class="img-responsive"}
 
+Welcome to my wiki page! If you are interested in Artificial Intelligence, Machine Learning, Language Processing and Computer Vision, you will feel at home here. 
 
+[If you have any questions/suggestions, reach me via Linkedin.](https://www.linkedin.com/in/an%C4%B1l-%C3%A7elik-a8bb9a174/)
 # Source-Codes
 *   [Papers with Code (Link)](https://paperswithcode.com/)
 
