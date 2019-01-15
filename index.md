@@ -24,19 +24,6 @@ Welcome to my wiki page stranger, If you are interested in Artificial Intelligen
 ### Capsule Networks
 *   [General Overview of Capsule Networks (Video)](https://www.youtube.com/watch?v=pPN8d0E3900)
 
-### Recommendation Systems
-Top Recommendation System Publications of Past 10 Years;
-*   [Trust-aware Recommender Systems (Link)]({{ site.url }}/downloads/10.1.1.106.305.pdf)
-*   [A Matrix Factorization Technique with Trust Propagation for Recommendation in Social Networks (Link)]({{ site.url }}/downloads/10.1.1.459.691.pdf)
-*   [Multiverse Recommendation: N-dimensional Tensor Factorization for Context-aware Collaborative Filtering (Link)]({{ site.url }}/downloads/karatzoglu-recsys-2010.pdf)
-*   [A Fast Parallel SGD for Matrix Factorization in Shared Memory Systems (Link)]({{ site.url }}/downloads/libmf.pdf)
-*   [Context-Aware Event Recommendation in Event-based Social Networks (Link)]({{ site.url }}/downloads/macedo2015recsys.pdf)
-*   [Modeling the Assimilation-Contrast Effects in Online Product Rating Systems: Debiasing and Recommendations (Link)]({{ site.url }}/downloads/Modeling the Assimilation-Contrast Effects in Online Product Rating Systems Debiasing and Recommendations.pdf)
-*   [Performance of Recommender Algorithms on Top-N Recommendation Tasks (Link)]({{ site.url }}/downloads/Performance_top_N_tasks.pdf)
-*   [Local Item-Item Models for Top-N Recommendation (Link)]({{ site.url }}/downloads/recsy368-christakopoulouA.pdf)
-*   [Beyond Clicks: Dwell Time for Personalization (Link)]({{ site.url }}/downloads/recsys2014.pdf)
-*   [Hidden Factors and Hidden Topics: Understanding Rating Dimensions with Review Text (Link)]({{ site.url }}/downloads/recsys_extended.pdf)
-
 ### Cheat Sheets
 *   [Chris Albon (Link)](https://chrisalbon.com/)
 *   [Stanford CS 229 - Machine Learning (Link)](https://stanford.edu/~shervine/teaching/cs-229)
@@ -76,16 +63,32 @@ Top Recommendation System Publications of Past 10 Years;
 ### Publications 
 *   [Top NLP Papers of 2018, Summarized (Link)](https://www.topbots.com/most-important-ai-research-papers-2018/#ai-paper-2018-6)
 
+### Recommendation Systems
+Top Recommendation System Publications of Past 10 Years;
+*   [Trust-aware Recommender Systems (Link)]({{ site.url }}/downloads/10.1.1.106.305.pdf)
+*   [A Matrix Factorization Technique with Trust Propagation for Recommendation in Social Networks (Link)]({{ site.url }}/downloads/10.1.1.459.691.pdf)
+*   [Multiverse Recommendation: N-dimensional Tensor Factorization for Context-aware Collaborative Filtering (Link)]({{ site.url }}/downloads/karatzoglu-recsys-2010.pdf)
+*   [A Fast Parallel SGD for Matrix Factorization in Shared Memory Systems (Link)]({{ site.url }}/downloads/libmf.pdf)
+*   [Context-Aware Event Recommendation in Event-based Social Networks (Link)]({{ site.url }}/downloads/macedo2015recsys.pdf)
+*   [Modeling the Assimilation-Contrast Effects in Online Product Rating Systems: Debiasing and Recommendations (Link)]({{ site.url }}/downloads/Modeling the Assimilation-Contrast Effects in Online Product Rating Systems Debiasing and Recommendations.pdf)
+*   [Performance of Recommender Algorithms on Top-N Recommendation Tasks (Link)]({{ site.url }}/downloads/Performance_top_N_tasks.pdf)
+*   [Local Item-Item Models for Top-N Recommendation (Link)]({{ site.url }}/downloads/recsy368-christakopoulouA.pdf)
+*   [Beyond Clicks: Dwell Time for Personalization (Link)]({{ site.url }}/downloads/recsys2014.pdf)
+*   [Hidden Factors and Hidden Topics: Understanding Rating Dimensions with Review Text (Link)]({{ site.url }}/downloads/recsys_extended.pdf)
+
 ### Tools
 *   [FXsolver (Link)](https://www.fxsolver.com/)
 *   [LaTeX Table Generator (Link)](https://www.tablesgenerator.com/)
 
-# Tips & Tricks
+### Toxic Comment Classification
+*   [1st Workshop on Abusive Language Online Accepted Papers (Link)](https://sites.google.com/site/abusivelanguageworkshop2017/home/accepted-papers)
+*   [2nd Workshop on Abusive Language Online Accepted Papers (Link)](https://sites.google.com/view/alw2018/program/accepted-papers)
 
+# Tips 
 ### Datasets
 * [Text Classification Datasets Mentioned in Publication: "Character-level Convolutional Networks for Text Classification (Link)](https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M)
 
-### Data Augmentation
+### Data Augmentation(NLP)
 *   [Augmentation with Translator (Post)](data_augmentation.md)
 *   [Data Augmentation Using Thesaurus (Post)](data_augmentation2.md)
 
