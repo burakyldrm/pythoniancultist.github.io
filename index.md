@@ -20,6 +20,7 @@ Welcome to my wiki page stranger, If you are interested in Artificial Intelligen
 
 ### Books
 *   [Interpretable Machine Learning (Link)](https://christophm.github.io/interpretable-ml-book/?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
+*   [The Hundred-Page Machine Learning Book]({{ site.url }}/downloads/100pgbook.pdf)
 
 ### Capsule Networks
 *   [General Overview of Capsule Networks (Video)](https://www.youtube.com/watch?v=pPN8d0E3900)
