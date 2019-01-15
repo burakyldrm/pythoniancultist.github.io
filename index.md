@@ -5,7 +5,7 @@ layout: default
 
 Welcome to my wiki page stranger, If you are interested in Artificial Intelligence, Machine Learning, Language Processing and Computer Vision, you will feel right at home here. 
 
-[Who am I? Questions/Suggestions?, Reach me via Linkedin.](https://www.linkedin.com/in/an%C4%B1l-%C3%A7elik-a8bb9a174/)
+[Who am I? Questions/Suggestions? Reach me via Linkedin.](https://www.linkedin.com/in/an%C4%B1l-%C3%A7elik-a8bb9a174/)
 
 # Source-Codes
 *   [Papers with Code (Link)](https://paperswithcode.com/)
@@ -17,6 +17,9 @@ Welcome to my wiki page stranger, If you are interested in Artificial Intelligen
 # Educational
 ### Anomaly Detection
 *   [General Overview of Anomaly Detection (Video)](https://www.youtube.com/watch?v=7dHyNPE9sgg)
+
+### Books
+*   [Interpretable Machine Learning (Link)](https://christophm.github.io/interpretable-ml-book/?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
 
 ### Capsule Networks
 *   [General Overview of Capsule Networks (Video)](https://www.youtube.com/watch?v=pPN8d0E3900)
@@ -34,8 +37,6 @@ Top Recommendation System Publications of Past 10 Years;
 *   [Beyond Clicks: Dwell Time for Personalization (Link)]({{ site.url }}/downloads/recsys2014.pdf)
 *   [Hidden Factors and Hidden Topics: Understanding Rating Dimensions with Review Text (Link)]({{ site.url }}/downloads/recsys_extended.pdf)
 
-
-
 ### Cheat Sheets
 *   [Chris Albon (Link)](https://chrisalbon.com/)
 *   [Stanford CS 229 - Machine Learning (Link)](https://stanford.edu/~shervine/teaching/cs-229)
@@ -44,6 +45,7 @@ Top Recommendation System Publications of Past 10 Years;
 ### Classes
 *   [CS188 - Introduction to Artificial Intelligence (Link)](https://inst.eecs.berkeley.edu/~cs188/fa18/index.html)
 *   [EECS189 - Introduction to Machine Learning (Link)](http://sp18.eecs189.org/)
+*   [Foundations of Machine Learning (Link)](http://www.deltanalytics.org/curriculum.html?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
 
 ### Exceptional Approaches for Machine Learning
 "This is how you win ML competitions: you take other peoples’ work and ensemble them together." 
@@ -68,11 +70,15 @@ Top Recommendation System Publications of Past 10 Years;
 *   [Efficient Way of Building Neural Network Architectures - Part I (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-i-hyper-parameter-8129009f131b)
 *   [Efficient Way of Building Neural Network Architectures - Part II (Link)](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-ii-hyper-parameter-42efca01e5d7)
 
+### Machine Translation
+*   [Machine Translation Reading List (Link)](https://github.com/THUNLP-MT/MT-Reading-List?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
+
 ### Publications 
 *   [Top NLP Papers of 2018, Summarized (Link)](https://www.topbots.com/most-important-ai-research-papers-2018/#ai-paper-2018-6)
 
 ### Tools
 *   [FXsolver (Link)](https://www.fxsolver.com/)
+*   [LaTeX Table Generator (Link)](https://www.tablesgenerator.com/)
 
 # Tips & Tricks
 
@@ -87,6 +93,7 @@ Top Recommendation System Publications of Past 10 Years;
 *   [Intro. to Tmux (Link)](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 
 ### Reading
+*   [AI Index 2018 Annual Report (Link)](http://cdn.aiindex.org/2018/AI%20Index%202018%20Annual%20Report.pdf?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
 *   [So you want be a research scientist? (Link)](https://medium.com/@vanhoucke/so-you-want-to-be-a-research-scientist-363c075d3d4c)
 *   [Evolution of Inception Network (Link)](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)
 *   [Ensembling Guide (Link)](https://mlwave.com/kaggle-ensembling-guide/)
