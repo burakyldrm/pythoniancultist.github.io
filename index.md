@@ -108,3 +108,6 @@ Top Recommendation System Publications of Past 10 Years;
 *  [Using Keras on GPU with Tensorflow Backend (Post)](keras_gpu.md)
 *  [Installing NeoVim + Vim-Plug (Post)](neovim_vimplug.md)
 
+# Misc.
+* [Fontawesome Slash Codes](ftp://ftp.dante.de/tex-archive/fonts/fontawesome/doc/fontawesome.pdf)
+
