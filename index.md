@@ -98,6 +98,7 @@ Top Recommendation System Publications of Past 10 Years;
 
 ### Reading
 *   [AI Index 2018 Annual Report (Link)](http://cdn.aiindex.org/2018/AI%20Index%202018%20Annual%20Report.pdf?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter)
+*   [More Data is Not Better and Machine Learning is a Grind…. Just Ask Amazon](https://scm.ncsu.edu/scm-articles/article/more-data-is-not-better-and-machine-learning-is-a-grind-just-ask-amazon)
 *   [So you want be a research scientist? (Link)](https://medium.com/@vanhoucke/so-you-want-to-be-a-research-scientist-363c075d3d4c)
 *   [Evolution of Inception Network (Link)](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)
 *   [Ensembling Guide (Link)](https://mlwave.com/kaggle-ensembling-guide/)
